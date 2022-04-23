@@ -11,8 +11,8 @@
 
 <body>
     <div class="container">
-        <section class="calculator" >
-            <input type="text" class="output_screen" placeholder="0" id="output"  readonly>
+        <section class="calculator">
+            <input type="text" class="output_screen" placeholder="0" id="output" readonly>
 
             <span class="clear" onclick="Clear( )"><i>Cl</i></span>
             <span class="clear" onclick="Del( )"><i>Del</i></span>
@@ -28,19 +28,20 @@
             <span onclick="OutPut('5')"><i>5</i></span>
             <span onclick="OutPut('6')"><i>6</i></span>
 
-            <span class="plus" onclick="OutPut('+')" ><i>+</i></span>
-            
+            <span class="plus" onclick="OutPut('+')"><i>+</i></span>
+
             <span onclick="OutPut('1')"><i>1</i></span>
             <span onclick="OutPut('2')"><i>2</i></span>
             <span onclick="OutPut('3')"><i>3</i></span>
             <span onclick="OutPut('0')"><i>0</i></span>
-            <span onclick="OutPut('00')" ><i>00</i></span>
-            <span onclick="OutPut('.')" ><i>.</i></span>
+            <span onclick="OutPut('00')"><i>00</i></span>
+            <span onclick="OutPut('.')"><i>.</i></span>
 
-            <button class=" equal-to" onclick="equalTo()" id="Btn" disabled ><i>=</i></button>
+            <button class=" equal-to" onclick="equalTo()" id="Btn" disabled><i>=</i></button>
 
         </section>
     </div>
-    <script src="../Js/calculator.js"></script>
+    <script src="./Js/calculator.js"></script>
 </body>
+
 </html>
