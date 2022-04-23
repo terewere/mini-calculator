@@ -26,7 +26,9 @@ function equalTo() {
             return
         }
         
-        return inputField.value = eval(inputField.value); // eval does the calculation and gives us the result when we click on the submit botton
+        const output = new Function('return ' + inputField.value)
+        
+        return inputField.value = output();
     }
     catch (error) {
         alert('incorrect number')
